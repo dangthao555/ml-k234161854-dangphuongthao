@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>797</width>
+    <height>928</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>70</y>
+      <width>711</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(184, 222, 173);</string>
+    </property>
+    <property name="title">
+     <string>LIST OF STUDENT</string>
+    </property>
+    <widget class="QTableWidget" name="tableWidgetStudent">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>691</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="columnCount">
+      <number>5</number>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>175</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Code</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Age</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Intro</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>380</y>
+      <width>711</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(245, 239, 216);</string>
+    </property>
+    <property name="title">
+     <string>STUDENT DETAILS</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>55</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;ID:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditId">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>40</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditCode">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>90</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>90</y>
+       <width>55</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Code:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditName">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>140</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>55</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Name:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditAge">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>200</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>200</y>
+       <width>55</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Age:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditIntro">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>260</y>
+       <width>311</width>
+       <height>71</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>260</y>
+       <width>55</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Intro:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelAvatar">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>40</y>
+       <width>220</width>
+       <height>220</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>images/ic_no_avatar.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonAvatar">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>300</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Avatar</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonRemoveAvatar">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>300</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Remove Avatar</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>770</y>
+      <width>711</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(250, 199, 233);</string>
+    </property>
+    <property name="title">
+     <string>ACTIONS</string>
+    </property>
+    <widget class="QPushButton" name="pushButtonNew">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>121</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>New</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/ic_new.png</normaloff>images/ic_new.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonInsert">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>30</y>
+       <width>121</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Insert</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/ic_save.png</normaloff>images/ic_save.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonUpdate">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>30</y>
+       <width>121</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Update</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/ic_update.png</normaloff>images/ic_update.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonRemove">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>30</y>
+       <width>121</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Remove</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>images/ic_delete.png</normaloff>images/ic_delete.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>19</y>
+      <width>711</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;STUDENT MANAGEMENT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>797</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
